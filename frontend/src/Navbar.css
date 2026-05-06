@@ -1,16 +1,20 @@
 .navbar {
 }
 
-.navbar ul {
+.navbar__brand {
+    font-weight: lighter;
+}
+
+.navbar ul, .navbar__brand {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    background-color: #333333;
+    background-color: rgb(50, 50, 50);
     display: flex;
     justify-content: center;
 }
 
-.navbar ul li a {
+.navbar ul li a, .navbar__brand {
     display: block;
     color: white;
     padding: 14px 16px;

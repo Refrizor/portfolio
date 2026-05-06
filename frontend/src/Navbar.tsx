@@ -13,19 +13,22 @@ function Navbar() {
     ];
 
     return (
-     <>
-         <div className={"navbar"}>
-             <ul>
-                 {defaultItems.map((item, index) => (
-                     <li key={index}>
-                         <a href={item.link}>
-                             {item.text}
-                         </a>
-                     </li>
-                 ))}
-             </ul>
-         </div>
-     </>
+        <>
+            <div className={"navbar"}>
+                <ul>
+                    <li>
+                        <p className={"navbar__brand"}>Devin Collins</p>
+                    </li>
+                    {defaultItems.map((item, index) => (
+                        <li key={index}>
+                            <a href={item.link}>
+                                {item.text}
+                            </a>
+                        </li>
+                    ))}
+                </ul>
+            </div>
+        </>
     )
 }
 
