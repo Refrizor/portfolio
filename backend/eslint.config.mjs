@@ -12,7 +12,6 @@ export default defineConfig(
   },
 
   js.configs.recommended,
-  tseslint.configs.recommendedTypeChecked,
 
   {
     files: ['**/*.{js,mjs,cjs,ts}'],
@@ -25,6 +24,7 @@ export default defineConfig(
 
   {
     files: ['**/*.ts'],
+    extends: [tseslint.configs.recommendedTypeChecked],
     languageOptions: {
       parserOptions: {
         projectService: true,
