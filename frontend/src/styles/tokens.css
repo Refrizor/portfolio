@@ -2,6 +2,8 @@
     --font-heading: "Clash Display", system-ui, sans-serif;
     --font-paragraph: Inter, system-ui, sans-serif;
     --page-bg: rgb(23, 29, 40);
+    --page-nav-bg: rgb(114, 95, 58);
+    --page-footer-bg: rgb(5, 8, 17);
     --text-primary: rgb(250, 250, 250);
     --text-muted: rgb(225, 225, 225);
 }

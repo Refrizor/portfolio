@@ -1,6 +1,24 @@
+/*
+Base CSS
+ */
+
 html {
     background: var(--page-bg);
     color: var(--text-primary);
+}
+
+body {
+    font-family: var(--font-paragraph), sans-serif;
+    color: var(--text-primary);
+    background: var(--page-bg);
+}
+
+main {
+    flex: 1;
+}
+
+p, a {
+    font-family: var(--font-paragraph), sans-serif;
 }
 
 h1 {
@@ -16,8 +34,4 @@ h2 {
 h3 {
     font-family: var(--font-heading), sans-serif;
     font-weight: 400
-}
-
-p,a {
-    font-family: var(--font-paragraph), sans-serif;
 }
