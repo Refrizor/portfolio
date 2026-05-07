@@ -16,7 +16,7 @@ const languages = [
     {
         name: "Python",
         badge: "https://img.shields.io/badge/Python-3776ab?style=flat-square&logo=python&logoColor=white"
-    }
+    },
 ];
 
 export default function Languages() {

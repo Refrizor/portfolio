@@ -1,0 +1,25 @@
+/* Home page */
+
+.home-hero {
+    /*border: rgb(80, 80, 80) solid 1px;*/
+}
+
+.home-hero__content {
+
+}
+
+.home-hero__title {
+}
+
+.home-hero__text {
+
+}
+
+.home-hero__text__highlight {
+    color: var(--text-highlight);
+    font-weight: 400;
+}
+
+.about-preview {
+
+}

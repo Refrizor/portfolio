@@ -1,4 +1,4 @@
-import { Outlet } from "react-router-dom";
+import {Outlet} from "react-router-dom";
 
 import Header from "../components/Header";
 import Footer from "../components/Footer";
@@ -6,11 +6,11 @@ import Footer from "../components/Footer";
 function RootLayout() {
     return (
         <div className="root-layout">
-            <Header />
+            <Header/>
             <main className="site-main">
-                <Outlet />
+                <Outlet/>
             </main>
-            <Footer />
+            <Footer/>
         </div>
     );
 }

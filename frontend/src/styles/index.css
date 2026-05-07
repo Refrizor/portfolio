@@ -1,6 +1,15 @@
+/*
+Global imports
+ */
 @import "tokens.css";
 @import "reset.css";
 @import "base.css";
 @import "fonts.css";
 @import "layout.css";
 @import "components.css";
+
+/*
+Page or component-specific imports
+ */
+
+@import "home.css";

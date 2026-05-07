@@ -5,7 +5,9 @@
     flex-direction: column;
 }
 
-.page-layout {
+.page-layout h1,
+.page-layout h2,
+.page-layout h3 {
     text-align: center;
 }
 
@@ -13,5 +15,7 @@
 }
 
 .container {
-
+    width: min(100% - 2rem, 1200px);
+    margin-inline: auto;
+    /*background: red;*/
 }

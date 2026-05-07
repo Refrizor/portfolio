@@ -17,6 +17,19 @@ main {
     flex: 1;
 }
 
+h1 {
+    margin-block: 0.5rem;
+    font-size: 2rem;
+}
+
+h2 {
+    margin-block: 0.8rem;
+}
+
+h3 {
+    margin-block: 0.8rem;
+}
+
 p, a {
     font-family: var(--font-paragraph), sans-serif;
 }

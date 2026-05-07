@@ -9,6 +9,16 @@
     }
 }
 
+.horizontal-rule {
+    width: 50%;
+}
+
+.section {
+    /*padding-block: 1rem;*/
+    padding: 1rem;
+    background: var(--page-surface-bg);
+}
+
 .grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
@@ -138,22 +148,4 @@
 }
 
 .site-footer__item__label {
-}
-
-/* HomePage page */
-
-.home-hero {
-    border: rgb(80, 80, 80) solid 1px;
-}
-
-.home-hero__content {
-
-}
-
-.home-hero__title {
-
-}
-
-.home-hero__text {
-
 }
