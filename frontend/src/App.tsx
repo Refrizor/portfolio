@@ -1,23 +1,20 @@
-import Home from "./Home.tsx";
-import {PageLayout} from "./PageLayout.tsx";
-import Navbar from "./Navbar.tsx";
-import Footer from "./Footer.tsx";
-import {BrowserRouter, Route, Routes} from "react-router";
-function App() {
+import {BrowserRouter, Route, Routes} from "react-router-dom";
 
+import RootLayout from "./layouts/RootLayout";
+import HomePage from "./pages/HomePage.tsx";
+import AboutPage from "./pages/AboutPage.tsx";
+
+function App() {
     return (
-        <>
-            <PageLayout>
-                <Navbar></Navbar>
-                <BrowserRouter>
-                    <Routes>
-                        <Route path={"/"} element={<Home />} />
-                    </Routes>
-                </BrowserRouter>
-                <Footer/>
-            </PageLayout>
-        </>
-    )
+        <BrowserRouter>
+            <Routes>
+                <Route element={<RootLayout/>}>
+                    <Route path="/" element={<HomePage/>}/>
+                    <Route path="/about" element={<AboutPage/>}/>
+                </Route>
+            </Routes>
+        </BrowserRouter>
+    );
 }
 
-export default App
+export default App;
