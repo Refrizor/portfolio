@@ -1,7 +1,9 @@
 /* Home page */
 
-.home-hero {
+.home-hero h1,
+.home-hero p {
     /*border: rgb(80, 80, 80) solid 1px;*/
+    text-align: center;
 }
 
 .home-hero__content {
@@ -22,4 +24,8 @@
 
 .about-preview {
 
+}
+
+.section--tech-stack .card {
+    /*border: none;*/
 }

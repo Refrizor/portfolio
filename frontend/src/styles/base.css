@@ -30,6 +30,10 @@ h3 {
     margin-block: 0.8rem;
 }
 
+h4 {
+    margin-block: 0.8rem;
+}
+
 p, a {
     font-family: var(--font-paragraph), sans-serif;
 }
@@ -47,4 +51,9 @@ h2 {
 h3 {
     font-family: var(--font-heading), sans-serif;
     font-weight: 400
+}
+
+h4 {
+    font-family: var(--font-heading), sans-serif;
+    font-weight: 400;
 }

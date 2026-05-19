@@ -1,31 +1,31 @@
-import Card from "../../components/Card.tsx";
+import Shield from "../../components/Shield.tsx";
 
 const databases = [
     {
         name: "PostgreSQL",
-        badge: "https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white"
+        badge: "https://img.shields.io/badge/PostgreSQL-374151?style=flat-square&logo=postgresql&logoColor=93C5FD"
     },
     {
         name: "MongoDB",
-        badge: "https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white"
+        badge: "https://img.shields.io/badge/MongoDB-374151?style=flat-square&logo=mongodb&logoColor=86EFAC"
     },
     {
         name: "Redis",
-        badge: "https://img.shields.io/badge/Redis-FF4438?style=flat-square&logo=redis&logoColor=white"
+        badge: "https://img.shields.io/badge/Redis-374151?style=flat-square&logo=redis&logoColor=FCA5A5"
     },
     {
         name: "MySQL",
-        badge: "https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white"
+        badge: "https://img.shields.io/badge/MySQL-374151?style=flat-square&logo=mysql&logoColor=7DD3FC"
     }
 ];
 
 export default function Databases() {
     return (
         <section className="databases">
-            <h2>Databases</h2>
-            <div className="grid">
+            <h3>Databases</h3>
+            <div className="shield-list">
                 {databases.map((database) => (
-                    <Card className={"card"} key={database.name} src={database.badge}></Card>
+                    <Shield key={database.name} name={database.name} badge={database.badge} />
                 ))}
             </div>
         </section>

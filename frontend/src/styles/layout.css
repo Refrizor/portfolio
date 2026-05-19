@@ -5,9 +5,7 @@
     flex-direction: column;
 }
 
-.page-layout h1,
-.page-layout h2,
-.page-layout h3 {
+.page-layout h1 {
     text-align: center;
 }
 

@@ -27,6 +27,7 @@ function Footer() {
                     ))}
                 </ul>
             </div>
+            <p className="site-footer__copyright">© 2026 Devin Collins</p>
         </footer>
     )
 }
