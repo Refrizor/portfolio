@@ -48,9 +48,9 @@ function AboutPreviewSection() {
                 <p className={"home-hero__text"}>
                     <ul>
                         <li>Strengthen my foundation in C++</li>
-                        <li>Grow experience in Unreal Engine's API</li>
                         <li>Learn Java's Spring framework</li>
                         <li>Considering an Associates Degree in software development</li>
+                        <li>Grow experience in Unreal Engine's API</li>
                     </ul>
                 </p>
             </div>
