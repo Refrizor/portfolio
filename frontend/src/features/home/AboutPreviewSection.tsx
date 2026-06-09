@@ -41,7 +41,15 @@ function AboutPreviewSection() {
                     <ul>
                         <li>Finish the full Certification program (nearly complete!)</li>
                         <li>Open-source Inferris applications</li>
-                        <li>Finish Pulsacod</li>
+                        <li>Finish the Pulsacod server tracking and session-based system</li>
+                    </ul>
+                </p>
+                <h3>Long-term Goals</h3>
+                <p className={"home-hero__text"}>
+                    <ul>
+                        <li>Strengthen my foundation in C++</li>
+                        <li>Grow experience in Unreal Engine's API</li>
+                        <li>Learn Java's Spring framework</li>
                         <li>Considering an Associates Degree in software development</li>
                     </ul>
                 </p>
