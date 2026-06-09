@@ -23,7 +23,7 @@ const bio = [
     <>Since 2024, I found a strong interest in API development and schema modeling. Building reliable applications with safe boundaries
     and proper validation.</>,
 
-    <>On June 9, 2026, I completed my Full Stack Application Development Capstone Project where I am now on route to completing the program.</>
+    <>On June 8, 2026, I completed my Full Stack Application Development Capstone Project where I am now en route to completing the program.</>
 ];
 
 function AboutPreviewSection() {
