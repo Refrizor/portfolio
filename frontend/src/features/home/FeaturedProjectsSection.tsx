@@ -6,9 +6,15 @@ import {faExternalLink} from "@fortawesome/free-solid-svg-icons";
 
 const projects = [
     {
+        name: "IBM Developer Capstone Project",
+        description: "A car dealership demo application consisting of a Django app, proxied React frontend, and an Express backend.",
+        tags: ["Django", "Express.js", "React.js", "MongoDB", "SQLite"],
+        url: "https://github.com/Refrizor/xrwvm-fullstack_developer_capstone"
+    },
+    {
         name: "Pulsacod",
-        description: "Pulsacod is a Minecraft server monitoring project with Paper/Velocity plugins, a TypeScript REST API, and planned internal tooling for tracking uptime, heartbeats, and player activity.",
-        tags: ["TypeScript", "Java", "Express", "PostgreSQL", "Redis"],
+        description: "Pulsacod is a Minecraft server monitoring project with Paper/Velocity plugins, a REST API, and planned internal tooling for tracking uptime, heartbeats, and player activity.",
+        tags: ["TypeScript", "Java", "Express.js", "PostgreSQL", "Redis"],
         url: "https://github.com/Refrizor/pulsacod"
     },
     {
@@ -18,7 +24,7 @@ const projects = [
         url: "https://github.com/Refrizor/timetools-gui"
     },
     {
-        name: "This Website",
+        name: "This Portfolio",
         description: "This portfolio website is available on my GitHub.",
         tags: ["React", "TypeScript"],
         url: "https://github.com/Refrizor/portfolio"

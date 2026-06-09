@@ -2,16 +2,16 @@ import Shield from "../../components/Shield.tsx";
 
 const languages = [
     {
+        name: "Java",
+        badge: "https://img.shields.io/badge/Java-2F3542?style=flat-square&logo=openjdk&logoColor=F97316"
+    },
+    {
         name: "JavaScript",
         badge: "https://img.shields.io/badge/JavaScript-2F3542?style=flat-square&logo=javascript&logoColor=F0DB4F"
     },
     {
         name: "TypeScript",
         badge: "https://img.shields.io/badge/TypeScript-2F3542?style=flat-square&logo=typescript&logoColor=60A5FA"
-    },
-    {
-        name: "Java",
-        badge: "https://img.shields.io/badge/Java-2F3542?style=flat-square&logo=openjdk&logoColor=F97316"
     },
     {
         name: "Python",

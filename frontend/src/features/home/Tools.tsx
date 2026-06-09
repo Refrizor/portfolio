@@ -18,6 +18,10 @@ const tools = [
         badge: "https://img.shields.io/badge/Docker-374151?style=flat-square&logo=docker&logoColor=7DD3FC"
     },
     {
+        name: "Kubernetes",
+        badge: "https://img.shields.io/badge/Kubernetes-374151?style=flat-square&logo=kubernetes&logoColor=326CE5"
+    },
+    {
         name: "Cloudflare Workers",
         badge: "https://img.shields.io/badge/Cloudflare%20Workers-374151?style=flat-square&logo=cloudflareworkers&logoColor=FDBA74"
     },
