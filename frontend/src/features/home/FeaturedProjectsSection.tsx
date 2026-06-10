@@ -13,20 +13,20 @@ const projects = [
     },
     {
         name: "Pulsacod",
-        description: "Pulsacod is a Minecraft server monitoring project with Paper/Velocity plugins, a REST API, and planned internal tooling for tracking uptime, heartbeats, and player activity.",
-        tags: ["TypeScript", "Java", "Express.js", "PostgreSQL", "Redis"],
+        description: "Pulsacod is a server instance monitoring application catering toward Mojang servers with planned internal tooling for uptime tracking, heartbeats, and player activity.",
+        tags: ["TypeScript", "Java", "Express.js", "PostgreSQL", "Redis", "Open-source"],
         url: "https://github.com/Refrizor/pulsacod"
     },
     {
         name: "Time Tools",
         description: "Timetools GUI is a simple, user-friendly Java application that provides tools for generating and converting Unix timestamps through a GUI. Uses Java Swing to offer a clean experience for working with Unix time.",
-        tags: ["Java", "GUI", "Executable"],
+        tags: ["Java", "GUI", "Utilities", "Open-source"],
         url: "https://github.com/Refrizor/timetools-gui"
     },
     {
         name: "This Portfolio",
         description: "This portfolio website is available on my GitHub.",
-        tags: ["React", "TypeScript"],
+        tags: ["React.js", "TypeScript"],
         url: "https://github.com/Refrizor/portfolio"
     }
 ];
