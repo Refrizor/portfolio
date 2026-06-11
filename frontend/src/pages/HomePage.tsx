@@ -9,7 +9,7 @@ import TechnicalStackSection from "../features/home/TechnicalStackSection.tsx";
 
 function HomePage() {
     return (
-        <Page title={"Portfolio"} description={"Devin Collin's portfolio"}>
+        <Page title={"Portfolio"} description={"Devin Collins’s portfolio"}>
             <PageLayout>
                 <Container>
                     <HeroSection/>
