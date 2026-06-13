@@ -5,7 +5,7 @@ type Certificate = {
     url?: string
 }
 
-// Pending
+// @ts-expect-error Temporarily suppress unused usages as I don't want this disabled on an ESLint level :P
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
 const professionalCertifications: Certificate[] = [
     {
