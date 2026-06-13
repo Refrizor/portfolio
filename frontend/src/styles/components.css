@@ -319,11 +319,7 @@
     transition: background-color 0.2s ease;
 }
 
-.list-group-item {
-
-}
-
-    /* Remove border from the very last item */
+/* Remove border from the very last item */
 .list-group-item:last-child {
     border-bottom: none;
 }
