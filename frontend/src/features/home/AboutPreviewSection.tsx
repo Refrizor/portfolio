@@ -1,3 +1,5 @@
+import {Certificates} from "./Certificates.tsx";
+
 const bio = [
     <>I first jumped into the world of programming after <i>Minecraft</i> released.
         Fiddling with Bukkit and later Spigot/Paper plugins, I became familiar with the Java programming language.
@@ -53,6 +55,12 @@ function AboutPreviewSection() {
                         <li>Grow experience in Unreal Engine's API</li>
                     </ul>
                 </p>
+
+                <h3>Professional Certificates</h3>
+                <p className={"home-hero__text"}>[Pending]</p>
+
+                <h3>Individual Course Certificates</h3>
+                <Certificates/>
             </div>
         </div>
     );

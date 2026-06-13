@@ -14,4 +14,6 @@
     --badge-text: rgb(227, 227, 227);
     --button-bg: rgb(42, 66, 128);
     --button-hover-bg: rgb(75, 109, 198);
+    --group-list-bg: rgb(28, 28, 28);
+    --group-list-hover-bg: rgb(0, 0, 0);
 }
