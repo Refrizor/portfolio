@@ -6,16 +6,20 @@ const databases = [
         badge: "https://img.shields.io/badge/PostgreSQL-374151?style=flat-square&logo=postgresql&logoColor=93C5FD"
     },
     {
+        name: "Redis",
+        badge: "https://img.shields.io/badge/Redis-374151?style=flat-square&logo=redis&logoColor=FCA5A5"
+    },
+    {
         name: "MySQL",
         badge: "https://img.shields.io/badge/MySQL-374151?style=flat-square&logo=mysql&logoColor=7DD3FC"
     },
     {
-        name: "MongoDB",
-        badge: "https://img.shields.io/badge/MongoDB-374151?style=flat-square&logo=mongodb&logoColor=86EFAC"
+        name: "SQLite",
+        badge: "https://img.shields.io/badge/SQLite-374151?style=flat-square&logo=sqlite&logoColor=003B57"
     },
     {
-        name: "Redis",
-        badge: "https://img.shields.io/badge/Redis-374151?style=flat-square&logo=redis&logoColor=FCA5A5"
+        name: "MongoDB",
+        badge: "https://img.shields.io/badge/MongoDB-374151?style=flat-square&logo=mongodb&logoColor=86EFAC"
     },
 ];
 
