@@ -6,10 +6,6 @@ const tools = [
         badge: "https://img.shields.io/badge/Git-374151?style=flat-square&logo=git&logoColor=FDA4AF"
     },
     {
-        name: "GitHub",
-        badge: "https://img.shields.io/badge/GitHub-374151?style=flat-square&logo=github&logoColor=E5E7EB"
-    },
-    {
         name: "GitHub Actions",
         badge: "https://img.shields.io/badge/GitHub%20Actions-374151?style=flat-square&logo=github-actions&logoColor=93C5FD"
     },
