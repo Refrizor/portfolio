@@ -26,6 +26,14 @@ const tools = [
         badge: "https://img.shields.io/badge/Cloudflare%20Workers-374151?style=flat-square&logo=cloudflareworkers&logoColor=FDBA74"
     },
     {
+        name: "OpenAPI",
+        badge: "https://img.shields.io/badge/OpenAPI-374151?style=flat-square&logo=openapiinitiative&logoColor=6BA539"
+    },
+    {
+        name: "Swagger",
+        badge: "https://img.shields.io/badge/Swagger-374151?style=flat-square&logo=swagger&logoColor=85EA2D"
+    },
+    {
         name: "Postman",
         badge: "https://img.shields.io/badge/Postman-374151?style=flat-square&logo=postman&logoColor=FDBA74"
     },
