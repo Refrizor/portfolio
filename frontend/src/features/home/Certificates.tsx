@@ -80,6 +80,11 @@ const courseCertificates: Certificate[] = [
         title: "Full Stack Software Developer Assessment",
         completionDate: "June 12, 2026",
         url: "https://coursera.org/share/dbc87812ea7ba4507073af55514ef169"
+    },
+    {
+        title: "Generative AI: Elevate your Software Development Career",
+        completionDate: "June 26, 2026",
+        url: "https://coursera.org/share/c53e4ba44d4e00f67d0f7b82ace1d73c"
     }
 ];
 
