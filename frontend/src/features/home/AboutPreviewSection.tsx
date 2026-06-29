@@ -25,7 +25,7 @@ const bio = [
     <>Since 2024, I found a strong interest in API development and schema modeling. Building reliable applications with safe boundaries
     and proper validation.</>,
 
-    <>On June 8, 2026, I completed my Full Stack Application Development Capstone Project where I am now en route to completing the program.</>
+    <>On June 29, 2026, I happily completed the IBM Full Stack Software Developer program and received a professional certificate.</>
 ];
 
 function AboutPreviewSection() {
@@ -43,12 +43,12 @@ function AboutPreviewSection() {
                     <ul>
                         <li>Open-source Inferris applications</li>
                         <li>Ship Pulsacod's server instance uptime and session-based tracking systems</li>
+                        <li>Strengthen my foundation in C++ and Machine Learning</li>
                     </ul>
                 </p>
                 <h3>Long-term Goals</h3>
                 <p className={"home-hero__text"}>
                     <ul>
-                        <li>Strengthen my foundation in C++ and Machine Learning</li>
                         <li>Learn Java's Spring framework</li>
                         <li>Considering an Associates Degree in software development</li>
                         <li>Grow experience in Unreal Engine's API</li>
