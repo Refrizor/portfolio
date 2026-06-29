@@ -85,6 +85,11 @@ const courseCertificates: Certificate[] = [
         title: "Generative AI: Elevate your Software Development Career",
         completionDate: "June 26, 2026",
         url: "https://coursera.org/share/c53e4ba44d4e00f67d0f7b82ace1d73c"
+    },
+    {
+        title: "Machine Learning for Absolute Beginners - Level 1",
+        completionDate: "June 28, 2026",
+        url: "https://coursera.org/share/7a2ec6d6cc15dfb4f10e5338c2886345"
     }
 ];
 
