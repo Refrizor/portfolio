@@ -106,7 +106,13 @@ const courseCertificates: Certificate[] = [
         title: "Machine Learning for Absolute Beginners - Level 1",
         completionDate: "June 28, 2026",
         url: "https://coursera.org/share/7a2ec6d6cc15dfb4f10e5338c2886345",
-        issuer: "Packt"
+        issuer: "Packt",
+    },
+    {
+        title: "Software Developer Career Guide and Interview Preparation",
+        completionDate: "June 29, 2026",
+        url: "https://coursera.org/share/ca305b198a271a1a79acc2c9943a7a94",
+        issuer: "IBM"
     }
 ];
 
