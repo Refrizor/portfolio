@@ -1,4 +1,4 @@
-import {Certificates} from "./Certificates.tsx";
+import {Certificates, ProfessionalCertificates} from "./Certificates.tsx";
 
 const bio = [
     <>I first jumped into the world of programming after <i>Minecraft</i> released.
@@ -57,7 +57,7 @@ function AboutPreviewSection() {
                 </p>
 
                 <h3>Professional Certificates</h3>
-                <p className={"home-hero__text"}>[Pending]</p>
+                <ProfessionalCertificates/>
 
                 <h3>Individual Course Certificates</h3>
                 <Certificates/>
