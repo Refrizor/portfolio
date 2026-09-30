@@ -5,7 +5,7 @@ import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 const footerLinks = [
     {name: "GitHub", icon: faGithub, link: "https://github.com/Refrizor"},
     {name: "LinkedIn", icon: faLinkedin, link: "https://www.linkedin.com/in/dev-collins"},
-    {name: "Email", icon: faMailForward, link: "mailto:devcollins36@gmail.com"},
+    {name: "Email", icon: faMailForward, link: "mailto:devin@inferris.com"},
 ];
 
 function Footer() {
