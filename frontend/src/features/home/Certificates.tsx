@@ -118,7 +118,7 @@ const courseCertificates: Certificate[] = [
 
 export function ProfessionalCertificates() {
     return (
-        <ul className="list-group">
+        <div className="list-group certificate-list">
             {[...professionalCertifications]
                 .sort((a, b) => {
                     const dateA = a.completionDate
@@ -140,18 +140,18 @@ export function ProfessionalCertificates() {
                         className="list-group-item"
                     >
                         {certificate.title}
-                        <div style={{color: 'var(--text-muted)'}}>
+                        <div className="certificate-meta">
                             {certificate.completionDate} — {certificate.issuer}
                         </div>
                     </a>
                 ))}
-        </ul>
+        </div>
     );
 }
 
 export function Certificates() {
     return (
-        <ul className="list-group">
+        <div className="list-group certificate-list">
             {[...courseCertificates]
                 .sort((a, b) => {
                     const dateA = a.completionDate
@@ -173,11 +173,11 @@ export function Certificates() {
                         className="list-group-item"
                     >
                         {certificate.title}
-                        <div style={{color: 'var(--text-muted)'}}>
+                        <div className="certificate-meta">
                             {certificate.completionDate} — {certificate.issuer}
                         </div>
                     </a>
                 ))}
-        </ul>
+        </div>
     );
 }

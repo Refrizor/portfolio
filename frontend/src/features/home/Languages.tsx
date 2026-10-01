@@ -24,11 +24,11 @@ export default function Languages() {
         <section className="languages">
             <h3>Languages</h3>
 
-            <div className="shield-list">
+            <ul className="shield-list">
                 {languages.map((language) => (
                     <Shield key={language.name} name={language.name} badge={language.badge} />
                 ))}
-            </div>
+            </ul>
         </section>
     )
 }

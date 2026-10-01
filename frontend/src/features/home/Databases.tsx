@@ -27,11 +27,11 @@ export default function Databases() {
     return (
         <section className="databases">
             <h3>Databases</h3>
-            <div className="shield-list">
+            <ul className="shield-list">
                 {databases.map((database) => (
                     <Shield key={database.name} name={database.name} badge={database.badge}/>
                 ))}
-            </div>
+            </ul>
         </section>
     )
 }

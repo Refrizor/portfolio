@@ -1,5 +1,45 @@
 # React + TypeScript + Vite
 
+## Rendering Markdown
+
+Use `src/components/Markdown.tsx` anywhere you need formatted text. Pass a string;
+blank lines separate paragraphs. It supports headings, **bold**, *italics*, links,
+images, nested lists, blockquotes, inline and fenced code, tables, task lists,
+strikethrough, and automatic URL links through `react-markdown` and `remark-gfm`.
+
+```tsx
+import Markdown from "./components/Markdown.tsx";
+
+<Markdown className="about-copy">{`
+## About me
+
+I build **web applications** with [Express.js](https://expressjs.com).
+
+- APIs and databases
+- [Read more](/about)
+`}</Markdown>
+```
+
+Internal and relative links use React Router when rendered inside a router.
+Hash links and email links use native anchors; HTTP(S) links open in a new tab.
+Outside a router, all links use native anchors. Raw HTML is displayed as text,
+and unsafe URL protocols are filtered by the parser's default URL handling.
+
+Override individual HTML elements with your own components as needed; the other
+defaults remain in place:
+
+```tsx
+<Markdown components={{
+    h2: ({children}) => <h2 className="h4">{children}</h2>,
+    a: ({href, children}) => <a href={href}>{children}</a>,
+}}>{content}</Markdown>
+```
+
+The wrapper accepts normal `div` attributes, including `className`, `id`, and
+`style`. It produces block content, so place it inside a section or div rather
+than a paragraph. Keep multiline source text flush left: four leading spaces
+at the beginning of a block mean an indented code block in Markdown.
+
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:

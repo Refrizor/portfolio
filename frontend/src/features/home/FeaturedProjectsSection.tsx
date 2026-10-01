@@ -1,8 +1,3 @@
-import {Badge, BadgeList} from "../../components/Badge.tsx";
-import Button from "../../components/Button.tsx";
-import Card from "../../components/Card.tsx";
-import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-import {faExternalLink} from "@fortawesome/free-solid-svg-icons";
 
 const projects = [
     {
@@ -33,30 +28,32 @@ const projects = [
 
 function FeaturedProjectsSection() {
     return (
-        <section className="featured-projects section">
-            <h2>Featured Projects</h2>
-            <p>A list of projects that are currently featured.</p>
-
-            <div className={"grid grid--cards"}>
-                {projects.map(project => (
-                    <Card fadeIn hoverScale>
-                        <div className={"card__header"}>
-                            <h3 className={"card__title"}>{project.name}</h3>
-                            <Button to={project.url} newTab><FontAwesomeIcon icon={faExternalLink}/></Button>
+        <section id="projects" className="content-section">
+            <div className="container">
+                <div className="section-heading mb-4 mb-lg-5">
+                    <p className="eyebrow mb-2">Selected work</p>
+                    <h2>Featured projects</h2>
+                    <p>A few things I’ve built and worked on.</p>
+                </div>
+                <div className="row g-4">
+                    {projects.map((project, index) => (
+                        <div className="col-md-6" key={project.name}>
+                            <article className="card project-card h-100">
+                                <div className="card-body d-flex flex-column p-4 p-lg-5">
+                                    <span className="project-number mb-4">0{index + 1} / Project</span>
+                                    <h3 className="h4 mb-3">{project.name}</h3>
+                                    <p className="project-description mb-4">{project.description}</p>
+                                    <div className="d-flex flex-wrap gap-2 mt-auto mb-4">
+                                        {project.tags.map(tag => <span className="badge project-tag" key={tag}>{tag}</span>)}
+                                    </div>
+                                    <a className="project-link" href={project.url} target="_blank" rel="noopener noreferrer" aria-label={`View ${project.name} on GitHub`}>
+                                        View on GitHub <span aria-hidden="true">↗</span>
+                                    </a>
+                                </div>
+                            </article>
                         </div>
-                        <div className={"card__content"}>
-                            <p>{project.description}</p>
-
-                            {/* Tags */}
-                            <div className={"card__footer"}><p>Tags:</p></div>
-                            <BadgeList>
-                                {project.tags.map((tag) => (
-                                    <Badge key={tag} className={"badge--gray tag"}>{tag}</Badge>
-                                ))}
-                            </BadgeList>
-                        </div>
-                    </Card>
-                ))}
+                    ))}
+                </div>
             </div>
         </section>
     );

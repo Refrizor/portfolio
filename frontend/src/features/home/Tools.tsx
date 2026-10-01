@@ -40,11 +40,11 @@ export default function Tools() {
         <section className="tools">
             <h3>Tools</h3>
 
-            <div className="shield-list">
+            <ul className="shield-list">
                 {tools.map((tool) => (
                     <Shield key={tool.name} name={tool.name} badge={tool.badge} />
                 ))}
-            </div>
+            </ul>
         </section>
     )
 }

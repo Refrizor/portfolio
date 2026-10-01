@@ -51,11 +51,11 @@ export default function Frameworks() {
     return (
         <section className="frameworks">
             <h3>Frameworks & Libraries</h3>
-            <div className="shield-list">
+            <ul className="shield-list">
                 {frameworks.map((framework) => (
                     <Shield key={framework.name} name={framework.name} badge={framework.badge} />
                 ))}
-            </div>
+            </ul>
         </section>
     )
 }

@@ -1,0 +1,37 @@
+.markdown {
+    min-width: 0;
+    overflow-wrap: anywhere;
+}
+
+.markdown img {
+    max-width: 100%;
+    height: auto;
+}
+
+.markdown pre {
+    overflow-x: auto;
+    padding: 1rem;
+    border: 1px solid var(--bs-border-color);
+    border-radius: .5rem;
+    background: var(--bs-tertiary-bg);
+}
+
+.markdown pre code {
+    color: inherit;
+    white-space: pre;
+    overflow-wrap: normal;
+}
+
+.markdown blockquote {
+    padding-left: 1rem;
+    border-left: 3px solid var(--bs-primary);
+    color: var(--bs-secondary-color);
+}
+
+.markdown .task-list-item {
+    list-style: none;
+}
+
+.markdown .task-list-item input {
+    margin-right: .5rem;
+}
